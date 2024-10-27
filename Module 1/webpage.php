@@ -25,6 +25,17 @@
                 border-radius: 8px;
                 margin-top: 15px;
             }
+            ul {
+                list-style-position: inside;
+                padding: 0;
+                margin: 0;
+                text-align: left;
+                display: inline-block;
+            }
+            li {
+                padding: 5px 0;
+                margin-left: 10px;
+            }
         </style>
     </head>
     <body>
@@ -44,7 +55,7 @@
             <h2>About Me</h2>
             <p>
                 Hi, I'm <?php echo $name; ?>! I'm passionate about technology, gaming, and Pittsburgh sports. In my free time, I love to explore new tech trends, play video games, and be a yinzer!
-                I currently live in Cranberry Twp and work as a Broadband Technician for Armstrong.  This is my final semester at Point Park and I look forward to finishing strong!
+                I currently live in Cranberry Twp and work as a Broadband Technician for Armstrong. This is my final semester at Point Park, and I look forward to finishing strong!
             </p>
         </div>
 
