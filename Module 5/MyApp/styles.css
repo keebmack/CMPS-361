@@ -1,0 +1,122 @@
+/* General font settings */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+h1 {
+    font-family: 'Roboto', Arial, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    color: #000;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff; /* White background for contrast */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for a modern look */
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4b41a; /* Steelers gold for header */
+    color: #000; /* Black text for header */
+    font-size: 1.2em;
+}
+
+td {
+    font-size: 1em;
+}
+
+/* Link styling */
+a {
+    text-decoration: none;
+    color: #000; /* Black text for links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Pagination styling */
+div {
+    text-align: center;
+    margin: 20px 0;
+}
+
+div a {
+    margin: 0 10px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #000; /* Black text for pagination links */
+    border-radius: 4px;
+}
+
+div a:hover {
+    background-color: #f4b41a; /* Highlight pagination link on hover */
+    color: #000;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 8px 12px;
+    background-color: #f4b41a;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #000;
+    color: #fff;
+}
+/* Button styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    background-color: #f4b41a; /* Steelers gold */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: #000; /* Black on hover */
+    color: #f4b41a; /* Gold text on hover */
+}
+
+.button:active {
+    transform: scale(0.98); /* Slight shrink on click */
+}
